@@ -327,6 +327,7 @@ video#herovideo {
     font-family: 'Roboto Condensed', sans-serif;
     display: inline-block;
     font-size: 1.125rem;
+    text-decoration: none;
     padding: 1em 2.5em;
     background: white;
     color: #333;
@@ -335,4 +336,14 @@ video#herovideo {
     border-radius: 6em;
     animation: shadow-pulse 2s infinite;
     text-transform: uppercase;
+}
+
+@keyframes shadow-pulse {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0,0,0,0.2);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(0,0,0,0);
+    }
 }
