@@ -94,7 +94,7 @@ html {
     color: #18191d;
     position: fixed;
     left: 0;
-    top: 6em;
+    top: 0;
     height: 100%;
     width: 100%;
     padding: 3.75em;
@@ -109,7 +109,7 @@ html {
 .full-nav.open {
     opacity: 1;
     visibility: visible;
-    transform: translate(0);
+    transform: translateY(0);
     transition: all .4s ease-in-out;
     z-index: 99;
 }
@@ -117,7 +117,7 @@ html {
 .full-nav .logo {
     display: flex;
     justify-content: center;
-    padding: 6em;
+    padding: 4em;
 }
 
 .nav2 {
@@ -236,4 +236,30 @@ html {
 
 .nav-close span:nth-child(2) {
     transform: rotate(-45deg);
+}
+
+.nav.sticky {
+    width: 100%;
+    position: fixed;
+    background: white;
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,0.35);
+    animation-name: animationFade;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.nav.sticky a {
+    color: #18191d;
+}
+
+.nav.sticky ul li.logo .white {
+    display: none;
+}
+
+.nav.sticky ul li.logo .black {
+    display: inline-block;
+}
+
+.nav.sticky .nav-icon span {
+    background: #18191d;
 }
