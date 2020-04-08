@@ -248,7 +248,19 @@ html {
     animation-fill-mode: both;
 }
 
+@keyframes animationFade {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
 
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        -o-transform: none;
+    }
+}
 
 .nav.sticky a {
     color: #18191d;
@@ -264,4 +276,63 @@ html {
 
 .nav.sticky .nav-icon span {
     background: #18191d;
+}
+
+video#herovideo {
+    width: 100%;
+}
+
+.bx-wrapper .social-icons a {
+    color: white;
+    border: 1px solid white;
+    width: 2em;
+    height: 2em;
+    font-size: 1.5rem;
+    display: inherit;
+    text-align: center;
+    padding-top: 5px;
+    transition: all ease 1s;
+    background: #000;
+    border-radius: 0px;
+}
+
+.bx-wrapper .social-icons a i {
+    position: relative;
+    bottom: 7px;
+}
+
+.vidcontent {
+    position: absolute;
+    top: 290px;
+    color: #000;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.vidcontent h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.vidcontent p {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 50%;
+}
+
+#vidBtn {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-block;
+    font-size: 1.125rem;
+    padding: 1em 2.5em;
+    background: white;
+    color: #333;
+    cursor: pointer;
+    margin-top: 1.125em;
+    border-radius: 6em;
+    animation: shadow-pulse 2s infinite;
+    text-transform: uppercase;
 }
