@@ -30,7 +30,7 @@ ul.bxslider {
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
     position: absolute;
-        bottom: 200px;
+    bottom: 150px;
     width: 100%;
 }
 /* LOADER */
@@ -40,13 +40,14 @@ ul.bxslider {
     /* font-size: .85em; */
     font-family: Arial;
     font-weight: bold;
-    color: #666;
+    color: rgb(78, 79, 82);
     padding-top: 20px;
     padding-left: 10%;
 }
 .bx-wrapper  {position:relative;
    
 }
+
 .bx-wrapper ul.social-icons.list-inline {
     position: absolute;
     right: 30px;
@@ -54,6 +55,7 @@ ul.bxslider {
     bottom: 45%;
     transform: rotate(90deg);
 }
+
 .bx-wrapper .social-icons a {
     color: #343a40;     
     width: 40px;
@@ -63,25 +65,24 @@ ul.bxslider {
     text-align: center;     
     transition: all ease 1s;
     background: #fff;
-    text-align: center !important;
-    
+    text-align: center !important;    
 }
-
 
 .bx-wrapper .social-icons a:hover{
     border: 1px solid white;
+    border-radius: 6em;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
+    border: 1px solid rgb(170, 172, 173);
     background: #f3f1f1;
     text-indent: -9999px;
     display: block;
     width: 11px;
     height: 11px;
     margin: 0 5px;
-    outline: 0;
-     
-     
+    outline: 0;    
 }
+
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
@@ -99,7 +100,7 @@ ul.bxslider {
   line-height: 0;
 }
 .bx-wrapper .social-icons a i {
-    transform: rotate(270deg);
+  transform: rotate(270deg);
      
 }
 /* DIRECTION CONTROLS (NEXT / PREV) */
