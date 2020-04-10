@@ -452,3 +452,34 @@ h4.text-dark {
     font-family: 'Oswald',sans-serif;
     font-size: 1.5rem;
 }
+
+#work h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: tranform .5s ease;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.row.no-gutters [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
