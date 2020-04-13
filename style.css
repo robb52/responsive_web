@@ -483,3 +483,8 @@ img {
     padding-right: 0;
     padding-left: 0;
 }
+
+div.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}

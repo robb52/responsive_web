@@ -28,4 +28,12 @@ $(document).ready(function(){
         speed: 1200,
     });
 
+    $("#work").magnificPopup({
+        delegate:'a',
+        type: 'image',
+        gallery:{
+            enabled:true
+        }
+    });
+
 });
