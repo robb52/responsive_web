@@ -701,6 +701,50 @@ div.slider-arrows {
 }
 
 .services {
-    background-image: url(..//images/parallax4.jpg);
+    background-image: url(images/parallax4.jpg);
+    margin-top: 5em;
     padding-top: 130px;
+    padding-bottom: 130px;
+    background-attachment: fixed;
+}
+
+.services h2, p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.services h2 {
+    font-size: 2rem;
+}
+
+.services p {
+    font-size: 1rem;
+}
+
+.services a {
+    padding: 15px 30px;
+    background: transparent;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Oswald' sans-serif;
+    color: white;
+    font-size: 13px;
+    transition: all 0.5s ease-in;
+    border: 2px solid white;
+}
+
+.services a:hover {
+    padding: 15px 30px;
+    background: white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #333;
+    font-size: 13px;
 }
