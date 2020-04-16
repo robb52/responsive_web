@@ -708,20 +708,22 @@ div.slider-arrows {
     background-attachment: fixed;
 }
 
-.services h2, p {
+.services h2 {
     font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-.services h2 {
-    font-size: 2rem;
-}
-
 .services p {
     font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .services a {
