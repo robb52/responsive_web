@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 html {
     box-sizing: border-box;
     font-size: 1rem;
@@ -493,7 +497,7 @@ div.container-fluid {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(93, 95, 95);
-    padding-top: 4em;
+    padding-top: 2em;
     background: white;
 }
 
@@ -514,7 +518,7 @@ div.container-fluid {
     color: #6c757d;
     line-height: 1.2;
     max-width: 650px;
-    margin: 0 auto 1.5em ;
+    margin: 0 auto 1em;
     font-family: 'Oswald',sans-serif;
     letter-spacing: 1px;
 }
@@ -544,7 +548,7 @@ a:hover {
     display: inline-block;
 }
 
-.tam-social li a {
+.team-social li a {
     font-size: 1rem;
     color: #18191d;
     height: 38px;
@@ -561,11 +565,13 @@ a:hover {
     position: relative;
 }
 
-.team-social.white-bg{
+.team-social.white-bg {
     background: white;
 }
 
-.team-coverflow{
+
+
+.team-coverflow {
     position: relative;
     overflow: hidden;
     padding: 20px;
@@ -593,17 +599,26 @@ a:hover {
 }
 
 .team-box-content {
-    background: #f1c30f;
+   background: #f1c30f;
     position: absolute;
     text-align: center;
     width: 100%;
     left: 0;
     opacity: 0;
     visibility: hidden;
-    padding: 20px 0;
     bottom: -20%;
     z-index: 1;
     transition: all linear 0.4s;
+}
+
+.team-social.white-bg {
+    height: 3.4em;  
+}
+
+.team-social.white-bg a {
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #000;
 }
 
 .team-coverflow .team-img {
@@ -1005,4 +1020,172 @@ div.slider-arrows {
 
 .numbers .fa {
     font-size: 4rem;
+}
+
+#clients {
+    margin-top: 2em;
+}
+
+#clients-list {
+    padding: 45px 0 0 0;
+    margin-left: 115px;
+}
+
+.client {
+    padding: 0 10px;
+    max-width: 170px;
+    margin: auto;
+    line-height: 100px;
+}
+
+.client-img {
+    display: inline-block;
+}
+
+#clients h5,
+h2 {
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+}
+
+#clients h5 {
+    font-size: 1.125rem;
+}
+
+#clients h2 {
+    font-size: 1.75rem;
+    
+}
+
+#contact {
+    margin-top: 6em;
+}
+
+footer {
+    background: #1c1c1d;
+    padding-top: 2em;
+    border-top: 5px solid rgba(0,0,0,0.1);
+}
+
+#contact-left h2,
+#contact-right h3 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+#contact-left p {
+    color: white;
+    margin-bottom: 2.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#contact-info {
+    background-image: url(images/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+address strong {
+    font-size: 1.125rem;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: white;
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding: 8px 17px;
+    margin-bottom: 1.5em;
+    color: white;
+}
+
+#footer-bottom {
+    background: rgba(0,0,0,0.1);
+    padding: 1.75em;
+    margin-top: 4em;
+}
+
+#footer-copyright p {
+    margin: 0;
+    color: white;
+}
+
+#footer-menu {
+    float: left;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+#footer-menu a:hover {
+    color: orange;
+}
+
+ul.social-list {
+    display: flex;
+    color: white;
+}
+
+ul.social-list li a {
+    margin-right: 20px;
+    color: white;
+}
+
+#btn-white {
+    border-color: white;
+    color: white;    
+}
+
+#btn-white:hover {
+    border-color: white;
+    color: #fff;
+}
+
+a.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 25px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-color: white;
+}
+
+#footer-copyrights p {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+
 }

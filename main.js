@@ -80,7 +80,28 @@ $(document).ready(function(){
 
     $('.count').counterUp({
         delay: 10,
-        time: 1000
+        time: 2000
+    });
+
+    $("#clients-list").owlCarousel({
+        items: 6,
+        autoPlay: false,
+        smartSpeed: 700,
+        loop: true,
+        autoPlayHoverPause: true,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 2
+            },
+            400: {
+                items: 3
+            },
+            768: {
+                items: 6
+            }
+        }
     });
 
 });
