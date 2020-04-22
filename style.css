@@ -766,16 +766,22 @@ div.slider-arrows {
     font-size: 13px;
 }
 
+.row.d-block {
+    margin-bottom: 4em;
+}
+
 #work {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     color: #535353;
     padding-top: 4em;
+    background: white;
     overflow-x: hidden;
 }
 
 #work h5 {
-    font-size: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
     margin-bottom: 1.5em;
     color: #ff1737;
     font-family: 'Oswald', sans-serif;
@@ -783,18 +789,17 @@ div.slider-arrows {
 }
 
 #work h2 {
-    font-size: 2.3rem;
+    font-size: 3rem;
     text-transform: uppercase;
     font-weight: 600;
     color: #18191d;
     line-height: 1.2;
-    max-width: 650px;
-    margin: 0 auto 15px;
+    margin: 0 auto 1.5em;
     font-family: 'Oswald', sans-serif;
 }
 
 #work p.desc {
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
     padding-bottom: 40px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -810,6 +815,16 @@ div.slider-arrows {
     left: 12px;
     top: -2.5px;
     transform: rotate(45deg);
+}
+
+#work .cbp-l-caption-title {
+    color: #f1c30f;
+    text-transform: capitalize;
+}
+
+#work .cbp-l-caption-body p,
+.ti.ti-arrow-right {
+    color: #000;
 }
 
 #work .cbp-l-filters-alignCenter {
@@ -861,7 +876,7 @@ div.slider-arrows {
     left: 5%;
     width: 90%;
     height: 90%;
-    transition: all 0.4s cubic-bezier(0.57, 0.21, 0.79, 1.25);
+    transition: all 0.4s cubic-bezier(0.57, 0.21, 0.79, 1.25); 
 }
 
 #latest {
